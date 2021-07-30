@@ -1,0 +1,469 @@
+.body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #FFFFFF;
+    /* overflow: hidden; */
+}
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.logo{
+    width: 160px;
+    height: 35px;
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.nav_bar a{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #738487;
+    margin-left: 50px;
+    padding-top: 12px;
+    text-decoration: none;
+}
+.nav_bar button{
+    background-color: #FF3800;
+    color: #FFECE8;
+    width: 180px;
+    height: 50px;
+    margin-left: 50px;
+    border: none;
+}
+.apply{
+    background-color: #FFF2EF;
+    height: 100%;
+    width: 100%;
+}
+.apply h3{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 49px;
+    line-height: 140%;
+    letter-spacing: -0.005em;
+    color: #FF3800;
+    width: 490px;
+    height: 200px;
+    margin-top: 0;
+    padding-left: 10%;
+}
+.apply button{
+    background-color: #FF3800;
+    color: #FFECE8;
+    width: 150px;
+    height: 40px;
+    margin: 50px 0 70px 10%;
+    border: none;
+}
+.apply img{
+    width: 100%;
+    height: 100%;
+    color: #FFD3C9;
+}
+.learn{
+    background-color: #FFFFFF;
+    padding-left: 10%;
+}
+.learn h3{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 177%;
+    color: #008DA0;
+    padding-top: 100px;
+}
+.learn h5{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 177%;
+    letter-spacing: -0.005em;
+    color: #008DA0;
+    border-bottom: 1px solid #008DA0;
+    width: 100px;
+    margin-bottom: 100px;
+}
+.loan{
+    background-color: #F1FDFF;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+.loan h4{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 49px;
+    line-height: 140%;
+    letter-spacing: -0.005em;
+    color: #008DA0;
+    padding-left: 10%;
+    padding-top: 100px;
+    margin: 0;
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+.offer h5{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 176%;
+    letter-spacing: -0.005em;
+    color: #738487;
+    border-bottom: 2px solid #008DA0;
+    margin: 0;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.offer img{
+    padding-bottom: 20px;
+}
+.pay{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 170px;
+}
+.pay img{
+    padding-bottom: 20px;
+}
+.pay h6{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 176%;
+    letter-spacing: -0.005em;
+    color: #738487;
+    margin: 0;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #043C44;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.info{
+    padding-left: 10%;
+    padding-right: 380px;
+}
+.info h3{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 49px;
+    line-height: 140%;
+    letter-spacing: -0.035em;
+    color: #F1FDFF;
+    margin-top: 0;
+}
+.info h4{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 137%;
+    letter-spacing: -0.05em;
+    color: #F1FDFF;
+    opacity: 0.5;
+    width: 300px;
+    height: 65px;
+    margin-top: 100px;
+}
+.info h5{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: -0.05em;
+    color: #F1FDFF;
+    opacity: 0.5;
+    margin: 0;
+    margin-top: 40px;
+}
+.info h6{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 140.5%;
+    letter-spacing: -0.05em;
+    color: #F1FDFF;
+    opacity: 0.5;
+    margin: 0;
+    margin-top: 40px;
+}
+.address{
+    padding-right: 10%;
+}
+.address h3{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: -0.005em;
+    color: #F1FDFF;
+    opacity: 0.5;
+    margin-top: 0;
+}
+#name{
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid rgba(241, 253, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 137%;
+    letter-spacing: -0.05em;
+    color: #F1FDFF;
+    opacity: 0.4;
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+#phone{
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid rgba(241, 253, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 137%;
+    letter-spacing: -0.05em;
+    color: #F1FDFF;
+    opacity: 0.4;
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+#email{
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid rgba(241, 253, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 137%;
+    letter-spacing: -0.05em;
+    color: #F1FDFF;
+    opacity: 0.4;
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+#message{
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid rgba(241, 253, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 137%;
+    letter-spacing: -0.05em;
+    color: #F1FDFF;
+    opacity: 0.4;
+    width: 500px;
+    height: 180px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 140px;
+}
+.address button{
+    background: #008DA0;
+    border: 0.5px solid rgba(115, 132, 135, 0.2);
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 137%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+}
+.social{
+    padding-top: 200px;
+    padding-left: 10%;
+    padding-bottom: 100px;
+    background-color: #FFFFFF;
+}
+.social h4{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 145%;
+    letter-spacing: -0.05em;
+    color: #738487;
+    width: 300px;
+}
+.connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+#e-mail{
+    background: #738487;
+    border: 0.5px solid rgba(115, 132, 135, 0.2);
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 137%;
+    letter-spacing: -0.05em;
+    color: #738487;
+    opacity: 0.4;
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.email button{
+    background: #008DA0;
+    border: 0.5px solid rgba(115, 132, 135, 0.2);
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 137%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+}
+.work{
+    padding-right: 200px;
+    padding-top: 40px;
+}
+.work h5{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 145%;
+    letter-spacing: -0.05em;
+    color: #738487;
+    margin: 0;
+}
+.work h6{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 137%;
+    letter-spacing: -0.05em;
+    color: #008DA0;
+    margin: 0;
+}
+.foot{
+    background: radial-gradient(305.71% 305.71% at 22.36% -105.14%, #008DA0 10.01%, #043339 53.84%, #134A54 96.63%);
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 12%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row1 h5{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 170%;
+    letter-spacing: -0.025em;
+    color: #F1FDFF;
+    margin: 0;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+.row2 h5{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 170%;
+    letter-spacing: -0.025em;
+    color: #F1FDFF;
+    width: 300px;
+    margin: 0;
+}
+.row2 h6{
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: -0.025em;
+    color: #F1FDFF;
+    padding-top: 80px;
+}
